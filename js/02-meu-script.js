@@ -1,3 +1,10 @@
+//Habilitando o modo estrito
+'use strict';
+
+let teste = "Senac";
+console.log(teste);
+
+
 //Exercicio
 let uc = 2
 let competencia = "Front-End com JavaScript"
