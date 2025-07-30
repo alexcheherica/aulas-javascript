@@ -62,11 +62,27 @@
 
         console.log(soma, subtracao, multiplicacao, divisao);
 
-        // Alterando a ordem de cálculo com o uso de parênteses: neste caso, primeiro ocorrerá a soma de a + b, e depois, a divisão do resultado por 2.
+        //Alterando a ordem de cálculo com o uso de parênteses: neste caso, primeiro ocorrerá a soma de a + b, e depois, a divisão do resultado por 2.
         let a = 100;
         let b = 20;
         let media = (a + b) / 2;
         console.log(media);
+        
+        /*Saída de dados personalizada
+        Frase para exemplo:Olá! Me chamo Chapolin Colorado e não vejo a hora de acabar o ano 2025*/
+
+        //Forma 1: CONCATENAÇÃO (tradicional, antiga)
+        //Forma 2: TEMPLATE LITERAL / STRING (moderna)
+
+        console.log("Olá! Me chamo "+aluno+" e não vejo a hora de acabar o ano de "+ano+".");
+
+        let frase = "Estamos estudando JavaScript na escola Senac";
+        frase +=" Penha, no curso Desenvolvedor Full-stack";
+        frase += " no ano de "+ano;
+        console.log(frase);
+
+        //No exemplo acima usamos += (significa concatena e atribui)
+        
         
         
         
