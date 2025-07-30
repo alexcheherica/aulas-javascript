@@ -72,16 +72,31 @@
         Frase para exemplo:Olá! Me chamo Chapolin Colorado e não vejo a hora de acabar o ano 2025*/
 
         //Forma 1: CONCATENAÇÃO (tradicional, antiga)
-        //Forma 2: TEMPLATE LITERAL / STRING (moderna)
-
+       
         console.log("Olá! Me chamo "+aluno+" e não vejo a hora de acabar o ano de "+ano+".");
 
         let frase = "Estamos estudando JavaScript na escola Senac";
         frase +=" Penha, no curso Desenvolvedor Full-stack";
         frase += " no ano de "+ano;
         console.log(frase);
-
         //No exemplo acima usamos += (significa concatena e atribui)
+
+        //Forma 2: TEMPLATE LITERAL / STRING (moderna)
+
+        console.log(`Olá! Me chamo ${aluno} e não vejo a hora de acabar o ano de ${ano}.`);
+
+        //As duas formas abaixo estão corretas!
+
+        console.log("Soma: "+soma);
+        console.log(`Soma: ${soma}`);
+
+        console.log(typeof soma);
+        console.log(typeof aluno);
+        
+        
+        
+        
+        
         
         
         
