@@ -72,7 +72,10 @@ const aluno = {
 };
 
 console.log(aluno);
-console.log(`Meu nome é ${aluno.NomeCompleto}, meu telefone é ${aluno.ListaDeTelefone[0]} e moro no bairro ${aluno.endereco.bairro}`);
+console.log(`Meu nome é ${aluno.NomeCompleto}, meu telefone celular é ${aluno.ListaDeTelefone[0]} e moro no bairro ${aluno.endereco.bairro}`);
+
+console.log("Meu nome é " +aluno.NomeCompleto,"meu telefone celular é " +aluno.ListaDeTelefone[0], "e moro no bairro"+aluno.endereco{});
+
 
 
 
