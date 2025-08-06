@@ -27,6 +27,18 @@ const variedade = ["melancia", "animes", "superonze","peixe", "sushi", acai, "Th
 
 console.log("Eu gosto muito de assisti", variedade[1],",","gosto também de comer",variedade[4],"e minha serie favorita é",variedade[6],".");
 
+//Array como Matriz de 2 dimensões
+
+const tecnologias = [
+    ["HTML","CSS","JAVASCRIPT"], 
+    ["FIGMA","PHOTOSHOP"],
+    ["PHP","NODE.JS","SQL","EXPRESS"]
+];
+console.log(tecnologias[0][2]);
+console.log(tecnologias[1][0]);
+console.log(tecnologias[2][3]);
+
+
 
 
 
