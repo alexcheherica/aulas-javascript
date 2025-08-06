@@ -54,6 +54,26 @@ const livros = [
 console.log(livros);
 console.log(livros[2].titulo);
 
+// Exercícios
+
+const aluno = {
+    NomeCompleto: "Elizabeth Silva",
+    DataDeNascimento: "31/12/1998",
+    ListaDeTelefone: [
+        "11 93836-8393",
+        "11 9393-2424"
+    ],
+    endereco: {
+        rua: "avenida manoel",
+        numero: 15,
+        bairro:"vila clara"
+    
+    }
+};
+
+console.log(aluno);
+console.log(`Meu nome é ${aluno.NomeCompleto}, meu telefone é ${aluno.ListaDeTelefone[0]} e moro no bairro ${aluno.endereco.bairro}`);
+
 
 
 
