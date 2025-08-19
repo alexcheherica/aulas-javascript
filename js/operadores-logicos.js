@@ -43,7 +43,18 @@ if (feriado === true || fimDeSemana === true) {
        
 } else {
     console.log("Tem aula!");
-    
+      
+}
+
+//! -> Inverte a lógica. O que é TRUE, vira FALSE. O que é FALSE, vira TRUE
+
+// Não esta vigorando(false)
+let blackFriday = false;
+
+if(!blackFriday){
+    console.log("Preços normais...");
+}else{
+    console.log("Preços com descontos...");
     
 }
 
