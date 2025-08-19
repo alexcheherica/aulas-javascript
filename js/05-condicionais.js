@@ -48,11 +48,11 @@ console.log("\nExercicio");
 
 let NotaUm = 7;
 let NotaDois = 9;
-let Media = ( NotaUm + NotaDois )/2;
+let media = ( NotaUm + NotaDois )/2;
 
-console.log("Média: "+Media);
+console.log("Média: "+media);
 
-if (Media >= 7) {
+if (media >= 7) {
 
     console.log("Aprovado😁");  
 }else{
@@ -60,8 +60,33 @@ if (Media >= 7) {
     
 }
 
-if (Media <7) {
+if (media < 7) {
     console.log("Reprovado😭");
 } else {
     console.log("Aprovado😁");
+}
+
+console.log("\nExemplo 3");
+//Condicional ENCADEADA/SUCESSIVA
+
+/* Verificando o desempenho do aluno conforme a média:
+-Média acima de 9? Ótimo
+-Média acima de 7? Bom
+-Média acima de 5? Ruim
+-Média até 5? Péssimo
+*/
+
+if (media > 9) {
+    console.log("ÓTIMO!");
+    
+    
+} else if(media > 7){
+    console.log("BOM!");
+      
+}else if(media > 5){
+    console.log("RUIM!");
+    
+}else{
+    console.log("PÉSSIMO!");
+    
 }
