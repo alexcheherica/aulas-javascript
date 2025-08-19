@@ -34,3 +34,16 @@ let b = '10';//10 como string
 let resultadoComparacao = a === b;// FALSE
 console.log(resultadoComparacao);
 
+// || -> retorna VERDADEIRO se pelo menos uma das condiçoes for VERDADEIRA
+let feriado = false;
+let fimDeSemana = false;
+
+if (feriado === true || fimDeSemana === true) {
+    console.log("Não tem aula!");
+       
+} else {
+    console.log("Tem aula!");
+    
+    
+}
+
