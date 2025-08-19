@@ -90,3 +90,10 @@ if (media > 9) {
     console.log("PÉSSIMO!");
     
 }
+
+console.log("\nExemplo 4");
+
+//Condicional COMPOSTA com operador TERNÁRIO    ?:
+let situacao = idade >= 18 ? "maior" : "menor";
+//expressão condicional
+console.log(situacao);
