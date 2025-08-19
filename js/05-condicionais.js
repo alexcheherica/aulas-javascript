@@ -50,12 +50,18 @@ let NotaUm = 7;
 let NotaDois = 9;
 let Media = ( NotaUm + NotaDois )/2;
 
+console.log("Média: "+Media);
+
 if (Media >= 7) {
 
-    console.log("Aprovado");  
-}
-else{
-    console.log("Reprovado");
+    console.log("Aprovado😁");  
+}else{
+    console.log("Reprovado😭");
     
 }
 
+if (Media <7) {
+    console.log("Reprovado😭");
+} else {
+    console.log("Aprovado😁");
+}
