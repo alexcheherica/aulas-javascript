@@ -56,27 +56,31 @@ console.log(livros[2].titulo);
 
 // Exercícios
 
-const aluno = {
+const aluno = { //objetos {}
     NomeCompleto: "Elizabeth Silva",
     DataDeNascimento: "31/12/1998",
-    ListaDeTelefone: [
+    ListaDeTelefone: [ //[Arrays]
         "11 93836-8393",
         "11 9393-2424"
     ],
     endereco: {
         rua: "avenida manoel",
-        numero: 15,
+        numero: "15",
         bairro:"vila clara"
-    
     }
 };
 
+//TEMPLATE LITERAL / STRING (moderna)
 console.log(aluno);
 console.log(`Meu nome é ${aluno.NomeCompleto}, meu telefone celular é ${aluno.ListaDeTelefone[0]} e moro no bairro ${aluno.endereco.bairro}`);
 
-console.log("Meu nome é " +aluno.NomeCompleto,"meu telefone celular é " +aluno.ListaDeTelefone[0], "e moro no bairro"+aluno.endereco{});
+//CONCATENAÇÃO (tradicional, antiga)
+console.log("Meu nome é " +aluno.NomeCompleto+ ", meu telefone celular é " +aluno.ListaDeTelefone[0]+ " e moro no bairro"+aluno.endereco.bairro+".");
 
-
+// Sobre os caracteres delimitadores:
+// (parênteses) -> Operações
+// [colchetes] -> Array/Vetor
+// {chaves} -> Objeto, funções, condicionais, loops, template string
 
 
 
