@@ -23,7 +23,7 @@ console.log(coisas[4]);
 //Exercícios
 
 let acai = 20
-const variedade = ["melancia", "animes", "superonze","peixe", "sushi", acai, "The Walking Dead" ]
+const variedade = ["melancia", "animes", "superonze","peixe", "sushi", "acai", "The Walking Dead" ]
 
 console.log("Eu gosto muito de assisti", variedade[1],",","gosto também de comer",variedade[4],"e minha serie favorita é",variedade[6],".");
 
