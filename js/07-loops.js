@@ -37,7 +37,35 @@ const bandas = ["Slayer","Metallica","Iron Maiden","Nightwish","Judas Priest"];
 //console.log(bandas[0]);
 
 for(let i = 0; i <bandas.length;i++){
-    console.log(bandas[i]);
+    console.log(bandas[i]);    
+}
+/*const bandas = ["Slayer", "Metallica", "Iron Maiden", "Nightwish", "Judas Priest"];
+
+for( let i = 0; i < bandas.length; i++ ){
+    console.log( bandas[i] );    
+}
+
+1ª execução: i = 0
+console.log( bandas[0] ); 
+
+2ª execução: i = 1
+console.log( bandas[1] ); 
+
+3ª execução: i = 2
+console.log( bandas[2] ); 
+
+4ª execução: i = 3
+console.log( bandas[3] ); 
+
+5ª execução: i = 4
+console.log( bandas[4] ); 
+*/
+
+console.log("\n-----------\n");
+
+//Usando loop for/of (exclusivo do JS)
+for( const banda of bandas){
+    console.log(banda);
     
 }
 
