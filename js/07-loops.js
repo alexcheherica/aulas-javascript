@@ -27,7 +27,18 @@ for (let j = 1; j <= 10; j++ ){
 
 console.log("\nExemplo 3: loop regressivo");
 for (let k = 10; k >= 1; k--) {
-    console.log("k vale"+k);
-    
+    console.log("k vale"+k);       
+}
+
+console.log("\nExemplo 4: loop e array");
+
+const bandas = ["Slayer","Metallica","Iron Maiden","Nightwish","Judas Priest"];
+
+//console.log(bandas[0]);
+
+for(let i = 0; i <bandas.length;i++){
+    console.log(bandas[i]);
     
 }
+
+
