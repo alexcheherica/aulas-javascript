@@ -64,9 +64,26 @@ console.log( bandas[4] );
 console.log("\n-----------\n");
 
 //Usando loop for/of (exclusivo do JS)
+/*Usamos uma var/const (no caso, banda) para acessar cada elemento do array (no caso, bandas)*/
 for( const banda of bandas){
     console.log(banda);
     
 }
+
+console.log("\nExemplo 5: loop e objeto");
+const pessoa ={
+    nome:" Fulano da Silva",
+    idade: 40,
+    cidade: "São Paulo",
+    estado: "SP"
+};
+
+// Usando o loop for/in para objetos (exclusivo do JS)
+//Prop pode ser chamado de qualquer outra palavra
+for(const prop in pessoa){
+    console.log(pessoa[prop]);
+    
+}
+
 
 
