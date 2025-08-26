@@ -30,3 +30,20 @@ function exemplo2() {
 
 exemplo2();
 
+console.log("\nExemplo 3: Arrow Function (Função Flecha/Seta)");
+
+// Sintaxe potencialmente mais simples para função no JavaScript
+const exemplo3 = () => {
+    console.log("Sintaxe Arrow Function");
+    
+};
+exemplo3();
+
+/*Obs: Funções (em qualquer sintaxe) também podem trabalhar com parâmetros/argumentos.
+
+Quando uma função precisa de v alores/dados para algum tipo de processamento, ela recebe valores/dados através de parâmentros/argumentos entre os parânteses.
+
+Geralmente, ao terminar o processamento dos dados, a função "retorna" para fora uma resultado.
+*/
+
+
