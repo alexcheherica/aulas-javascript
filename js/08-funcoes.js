@@ -43,7 +43,33 @@ exemplo3();
 
 Quando uma função precisa de v alores/dados para algum tipo de processamento, ela recebe valores/dados através de parâmentros/argumentos entre os parânteses.
 
-Geralmente, ao terminar o processamento dos dados, a função "retorna" para fora uma resultado.
-*/
+Geralmente, ao terminar o processamento dos dados, a função "retorna" para fora uma resultado.*/
+
+console.log("\nExemplo 4: Função com parâmetro opcional");
+
+function saudacao(nome = "Visitante"){
+    console.log("Olá,"+nome);
+}
+
+saudacao("Alexchê");
+saudacao("Elizabeth");
+saudacao();//nesse caso, é usado "Visitante" como valor
+
+console.log("\nExemplo 5: Função com parâmetros e retorno");
+
+/*Sempre que tivermos a necessidade de trabalhar com o resultado do processamento de uma função, então essa função deve ter o return.*/
+function multiplicar (valor1, valor2){
+    return valor1 * valor2;
+
+}
+// Chamamos a função e recebemos o retorno/resultado dela
+let resultado1 = multiplicar (10,5);
+let resultado2 = multiplicar(200,10);
+
+//Exibimos o resultado
+console.log("Resultado 1: "+resultado1);
+console.log("Resultado 2: "+resultado2);
+
+
 
 
