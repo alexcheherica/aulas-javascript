@@ -128,9 +128,7 @@ for(const cliente of clientes){
 }
 
 for (let i = 0; i < clientes.length; i++) {
-    console.log(`- Cliente: ${clientes[i].nome}, id: ${clientes[i].id}`);
-    
-    
+    console.log(`- Cliente: ${clientes[i].nome}, id: ${clientes[i].id}`);  
 }
 
 
